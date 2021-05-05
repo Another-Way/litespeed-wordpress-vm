@@ -63,7 +63,7 @@ apt install lsphp74-common lsphp74-curl lsphp74-imap lsphp74-json lsphp74-mysql 
 apt-get install openlitespeed -y
 /usr/local/lsws/bin/lswsctrl start
 cd /tmp
-git clone https://github.com/andygrillo/litespeed-wordpress-vm.git
+git clone https://github.com/Another-Way/litespeed-wordpress-vm.git
 cp litespeed-wordpress-vm**/**httpd_config.conf /usr/local/lsws/conf/
 cp litespeed-wordpress-vm/vhconf.conf /usr/local/lsws/conf/vhosts/Example/
 /usr/local/lsws/bin/lswsctrl restart
